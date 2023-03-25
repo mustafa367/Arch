@@ -4,7 +4,5 @@ RUN pacman -Syu --needed --noconfirm  \
   htop \
   neovim \
   ghc \
-  ghc-prof \
-  ghc-doc \
   sbcl \
   && pacman -Scc --noconfirm
