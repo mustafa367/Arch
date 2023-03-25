@@ -1,4 +1,4 @@
 FROM quay.io/toolbx-images/archlinux-toolbox:latest
 RUN pacman -Syu --needed --noconfirm 
-  neovim \
+  vim \
   && pacman -Scc --noconfirm
