@@ -5,5 +5,5 @@ RUN pacman -Syu --needed --noconfirm  \
   neovim \
   ghc \
   sbcl \
-  chicken \
+  guile2.2 \
   && pacman -Scc --noconfirm
