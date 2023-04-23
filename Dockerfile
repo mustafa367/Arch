@@ -6,4 +6,6 @@ RUN pacman -Syu --needed --noconfirm  \
   ghc \
   sbcl \
   guile2.2 \
+  cataclysm-dda \
+  cataclysm-dda-tiles \
   && pacman -Scc --noconfirm
