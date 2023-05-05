@@ -6,6 +6,8 @@ RUN pacman -Syu --needed --noconfirm  \
   ghc \
   sbcl \
   guile2.2 \
+  rustup \
   cataclysm-dda \
   cataclysm-dda-tiles \
-  && pacman -Scc --noconfirm
+  && pacman -Scc --noconfirm \
+  && rustup default nightly
