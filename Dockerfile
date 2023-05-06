@@ -9,5 +9,4 @@ RUN pacman -Syu --needed --noconfirm  \
   rustup \
   cataclysm-dda \
   cataclysm-dda-tiles \
-  && pacman -Scc --noconfirm \
-  && rustup default nightly
+  && pacman -Scc --noconfirm
