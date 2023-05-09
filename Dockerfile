@@ -4,8 +4,6 @@ RUN pacman -Syu --needed --noconfirm  \
   htop \
   neovim \
   ghc \
-  ghc-prof \
-  ghc-doc \
   sbcl \
   guile2.2 \
   rustup \
