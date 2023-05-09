@@ -3,8 +3,7 @@ RUN pacman -Syu --needed --noconfirm  \
   neofetch \
   htop \
   neovim \
-  ghc \
-  sbcl \
+  ghcup \
   guile2.2 \
   rustup \
   cataclysm-dda \
