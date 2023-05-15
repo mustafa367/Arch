@@ -6,6 +6,7 @@ RUN pacman -Syu --needed --noconfirm  \
   ghc \
   guile2.2 \
   rustup \
+  ffplay \
   cataclysm-dda \
   cataclysm-dda-tiles \
   && pacman -Scc --noconfirm
