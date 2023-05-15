@@ -6,7 +6,7 @@ RUN pacman -Syu --needed --noconfirm  \
   ghc \
   guile2.2 \
   rustup \
-  ffplay \
+  ffmpeg \
   cataclysm-dda \
   cataclysm-dda-tiles \
   && pacman -Scc --noconfirm
