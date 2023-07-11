@@ -3,7 +3,7 @@ RUN pacman -Syu --needed --noconfirm  \
   neofetch \
   htop \
   neovim \
-  vscodium-bin \
+  code \
   ghc \
   guile2.2 \
   rustup \
