@@ -4,6 +4,7 @@ RUN pacman -Syu --needed --noconfirm  \
   htop \
   neovim \
   code \
+  texlive-basic \
   ghc \
   guile2.2 \
   rustup \
