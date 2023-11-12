@@ -9,6 +9,4 @@ RUN pacman -Syu --needed --noconfirm  \
   guile2.2 \
   rustup \
   ffmpeg \
-  cataclysm-dda \
-  cataclysm-dda-tiles \
   && pacman -Scc --noconfirm
