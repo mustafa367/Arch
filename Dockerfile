@@ -8,5 +8,6 @@ RUN pacman -Syu --needed --noconfirm  \
   ghc \
   guile2.2 \
   rustup \
+  python \
   ffmpeg \
   && pacman -Scc --noconfirm
