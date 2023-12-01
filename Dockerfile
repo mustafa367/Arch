@@ -9,5 +9,6 @@ RUN pacman -Syu --needed --noconfirm  \
   guile2.2 \
   rustup \
   python \
+  python-pip \
   ffmpeg \
   && pacman -Scc --noconfirm
