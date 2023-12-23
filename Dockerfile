@@ -5,11 +5,10 @@ RUN pacman -Syu --needed --noconfirm  \
   neovim \
   code \
   texlive-meta \
-  ghc \
-  ghcup-hs-bin \
   guile2.2 \
   rustup \
   python \
   python-pip \
   ffmpeg \
-  && pacman -Scc --noconfirm
+  && pacman -Scc --noconfirm \
+  && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
