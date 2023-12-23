@@ -6,6 +6,7 @@ RUN pacman -Syu --needed --noconfirm  \
   code \
   texlive-meta \
   ghc \
+  ghcup-hs-bin \
   guile2.2 \
   rustup \
   python \
