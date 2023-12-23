@@ -12,7 +12,6 @@ RUN pacman -Syu --needed --noconfirm  \
     ffmpeg \
     && pacman -Scc --noconfirm \
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh \
-    && ghcup install ghc \
-    && ghcup install cabal
+    && ghcup install ghc
 ENV PATH=${PATH}:/root/.local/bin
 ENV PATH=${PATH}:/root/.ghcup/bin 
