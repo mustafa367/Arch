@@ -1,4 +1,5 @@
 FROM quay.io/toolbx-images/archlinux-toolbox:latest
+ENV GHCUP_USE_XDG_DIRS=1
 RUN pacman -Syu --needed --noconfirm  \
     neofetch \
     htop \
@@ -11,8 +12,7 @@ RUN pacman -Syu --needed --noconfirm  \
     python-pip \
     ffmpeg \
     && pacman -Scc --noconfirm \
-    && curl https://downloads.haskell.org/~ghcup/x86_64-linux-ghcup > /usr/bin/ghcup \
-    && chmod +x /usr/bin/ghcup \
+    && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh \
     && ghcup install ghc \
     && ghcup install cabal \
     && ghcup install hls
