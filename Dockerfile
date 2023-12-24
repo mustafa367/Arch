@@ -14,5 +14,5 @@ RUN pacman -Syu --needed --noconfirm  \
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh \
     && /root/.ghcup/bin/ghcup install ghc \
     && /root/.ghcup/bin/ghcup install cabal \
-    && /root/.ghcup/bin/ghcup install hls \
-    && echo PATH="$HOME/.ghcup/bin:$PATH" >> $HOME/.bashrc
+    && /root/.ghcup/bin/ghcup install hls
+ENV PATH=${PATH}:/root/.ghcup/bin
