@@ -13,6 +13,6 @@ RUN pacman -Syu --needed --noconfirm  \
     ffmpeg \
     && pacman -Scc --noconfirm \
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh \
-    && ghcup install ghc \
-    && ghcup install cabal \
-    && ghcup install hls
+    && ~/.local/bin/ghcup install ghc \
+    && ~/.local/bin/ghcup install cabal \
+    && ~/.local/bin/ghcup install hls
