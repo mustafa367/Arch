@@ -15,4 +15,5 @@ RUN pacman -Syu --needed --noconfirm  \
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org |  sh \
     && /usr/bin/ghcup install ghc \
     && /usr/bin/ghcup install cabal \
-    && /usr/bin/ghcup install hls
+    && /usr/bin/ghcup install hls \
+    && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup
