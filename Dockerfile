@@ -12,7 +12,6 @@ RUN pacman -Syu --needed --noconfirm  \
     go \
     racket \
     zig \
-    ffmpeg \
     && pacman -Scc --noconfirm \
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org |  sh \
     && /usr/bin/ghcup install ghc \
