@@ -1,8 +1,6 @@
 FROM quay.io/toolbx-images/archlinux-toolbox:latest
 ENV BOOTSTRAP_HASKELL_NONINTERACTIVE=1 GHCUP_USE_XDG_DIRS=1 XDG_BIN_HOME=/usr/bin XDG_DATA_HOME=/usr/share COURSIER_BIN_DIR=/usr/bin
 RUN pacman -Syu --needed --noconfirm  \
-    neofetch \
-    htop \
     neovim \
     texlive-meta \
     rustup \
@@ -12,7 +10,6 @@ RUN pacman -Syu --needed --noconfirm  \
     racket \
     python \
     python-pip \
-    guile2.2 \
     && pacman -Scc --noconfirm \
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org |  sh \
     && /usr/bin/ghcup install ghc \
