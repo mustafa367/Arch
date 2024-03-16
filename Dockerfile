@@ -2,6 +2,7 @@ FROM quay.io/toolbx-images/archlinux-toolbox:latest
 ENV BOOTSTRAP_HASKELL_NONINTERACTIVE=1 GHCUP_USE_XDG_DIRS=1 XDG_BIN_HOME=/usr/bin XDG_DATA_HOME=/usr/share COURSIER_BIN_DIR=/usr/bin
 RUN pacman -Syu --needed --noconfirm  \
     neovim \
+    code \
     rustup \
     zig \
     go \
