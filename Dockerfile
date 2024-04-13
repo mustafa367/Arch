@@ -6,6 +6,7 @@ RUN pacman -Syu --needed --noconfirm  \
     rustup \
     zig \
     go \
+    ffmpeg \
     # jdk-openjdk \
     racket \
     python \
