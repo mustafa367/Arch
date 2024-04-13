@@ -3,11 +3,11 @@ ENV BOOTSTRAP_HASKELL_NONINTERACTIVE=1 GHCUP_USE_XDG_DIRS=1 XDG_BIN_HOME=/usr/bi
 RUN pacman -Syu --needed --noconfirm  \
     neovim \
     code \
+    ffmpeg \
     rustup \
     zig \
     go \
-    ffmpeg \
-    jdk-openjdk \
+    # jdk-openjdk \
     racket \
     python \
     python-pip \
@@ -17,4 +17,4 @@ RUN pacman -Syu --needed --noconfirm  \
     && /usr/bin/ghcup install ghc \
     && /usr/bin/ghcup install cabal \
     && /usr/bin/ghcup install hls \
-    && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes
+    # && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes
