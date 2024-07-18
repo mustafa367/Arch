@@ -1,6 +1,6 @@
 FROM quay.io/toolbx-images/archlinux-toolbox:latest
 ENV XDG_BIN_HOME=/usr/bin XDG_DATA_HOME=/usr/share COURSIER_BIN_DIR=/usr/bin
-RUN su nobody curl -fsSL https://code-server.dev/install.sh | sh
+RUN su nobody -c "curl -fsSL https://code-server.dev/install.sh | sh"
 USER root
 RUN pacman -Syu --needed --noconfirm  \
     # jdk-openjdk \
