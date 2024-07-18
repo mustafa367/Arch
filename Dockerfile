@@ -11,6 +11,8 @@ RUN pacman -Syu --needed --noconfirm  \
     python-pip \
     rustup \
     go \
-    && pacman -Scc --noconfirm
-RUN curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes
+    && pacman -Scc --noconfirm \
+    && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes
+    
+USER nobody
 RUN curl -fsSL https://code-server.dev/install.sh | sh
