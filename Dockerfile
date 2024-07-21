@@ -5,6 +5,7 @@ ENV COURSIER_BIN_DIR=/usr/bin
 #ENV BOOTSTRAP_HASKELL_NONINTERACTIVE=1 GHCUP_USE_XDG_DIRS=1
 
 RUN pacman -Syu --needed --noconfirm  \
+    neofetch \
     neovim \
     texlive-meta \
     gcc \
@@ -18,7 +19,6 @@ RUN pacman -Syu --needed --noconfirm  \
     # racket \
     # ffmpeg \
     # guile2.2 \
-    # neofetch \
     # htop \
     # code \
     && pacman -Scc --noconfirm \
