@@ -8,6 +8,7 @@ RUN pacman -Syu --needed --noconfirm  \
     neofetch \
     neovim \
     texlive-meta \
+    bazel \
     gcc \
     nodejs \
     python \
