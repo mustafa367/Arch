@@ -14,7 +14,6 @@ RUN pacman -Syu --needed --noconfirm  \
     python \
     python-pip \
     rustup \
-    go \
     # zig \
     # jdk-openjdk \
     # racket \
