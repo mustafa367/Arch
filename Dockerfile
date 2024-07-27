@@ -14,6 +14,7 @@ RUN pacman -Syu --needed --noconfirm  \
     python \
     python-pip \
     rustup \
+    git-lfs \
     # go \
     # zig \
     # jdk-openjdk \
