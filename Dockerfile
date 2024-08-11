@@ -16,6 +16,7 @@ RUN pacman -Syu --needed --noconfirm  \
     rustup \
     git-lfs \
     sdl \
+    sdl2 \
     # go \
     # zig \
     # jdk-openjdk \
