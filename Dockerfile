@@ -15,7 +15,6 @@ RUN pacman -Syu --needed --noconfirm  \
     python-pip \
     rustup \
     git-lfs \
-    sdl \
     sdl2 \
     # go \
     # zig \
