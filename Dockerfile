@@ -1,4 +1,4 @@
-FROM quay.io/toolbx-images/archlinux-toolbox:latest
+FROM archlinux:base-devel
 
 ENV XDG_BIN_HOME=/usr/bin XDG_DATA_HOME=/usr/share
 ENV COURSIER_BIN_DIR=/usr/bin
