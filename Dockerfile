@@ -19,7 +19,7 @@ RUN pacman -Syu --needed --noconfirm  \
     git-lfs \
     sdl2 \
     # go \
-    # zig \
+    zig \
     # jdk-openjdk \
     # racket \
     # ffmpeg \
