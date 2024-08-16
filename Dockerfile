@@ -15,6 +15,7 @@ RUN pacman -Syu --needed --noconfirm  \
     python \
     python-pip \
     rustup \
+    clojure \
     git-lfs \
     sdl2 \
     # go \
@@ -30,6 +31,6 @@ RUN pacman -Syu --needed --noconfirm  \
     # && /usr/bin/ghcup install ghc \
     # && /usr/bin/ghcup install cabal \
     # && /usr/bin/ghcup install hls \
-    # && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes \
+    && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes \
     && curl -fsSL https://code-server.dev/install.sh | sh -s -- --method standalone --prefix=/usr/local \
     && rustup default stable
