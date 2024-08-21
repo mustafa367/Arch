@@ -12,13 +12,13 @@ RUN pacman -Syu --needed --noconfirm  \
     gcc \
     rustup \
     zig \
-    nodejs \
     python \
     python-pip \
     go \
     clojure \
     git-lfs \
     sdl2 \
+    # nodejs \
     # jdk-openjdk \
     # racket \
     # ffmpeg \
