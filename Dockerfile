@@ -10,13 +10,13 @@ RUN pacman -Syu --needed --noconfirm  \
     neovim \
     texlive-meta \
     gcc \
+    rustup \
+    zig \
     nodejs \
     python \
     python-pip \
-    rustup \
-    zig \
     go \
-    # clojure \
+    clojure \
     git-lfs \
     sdl2 \
     # jdk-openjdk \
