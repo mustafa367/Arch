@@ -8,15 +8,13 @@ RUN pacman -Syu --needed --noconfirm  \
     archlinux-keyring \
     neofetch \
     neovim \
-    texlive-meta \
+    git-lfs \
     gcc \
     rustup \
     zig \
     python \
     python-pip \
-    go \
     clojure \
-    git-lfs \
     sdl2 \
     # nodejs \
     # jdk-openjdk \
@@ -25,6 +23,8 @@ RUN pacman -Syu --needed --noconfirm  \
     # guile2.2 \
     # htop \
     # code \
+    # texlive-meta \
+    # go \
     && pacman -Scc --noconfirm \
     # && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org |  sh \
     # && /usr/bin/ghcup install ghc \
