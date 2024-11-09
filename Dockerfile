@@ -16,6 +16,7 @@ RUN pacman -Syu --needed --noconfirm  \
     python-pip \
     clojure \
     jbig2dec \
+    ghostscript \
     sdl2 \
     # nodejs \
     # jdk-openjdk \
