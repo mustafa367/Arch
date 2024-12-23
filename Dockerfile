@@ -18,6 +18,7 @@ RUN pacman -Syu --needed --noconfirm  \
     djvulibre \
     ghostscript \
     sdl2 \
+    supercollider \
     # nodejs \
     # jdk-openjdk \
     # racket \
