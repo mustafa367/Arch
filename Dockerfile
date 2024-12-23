@@ -19,6 +19,7 @@ RUN pacman -Syu --needed --noconfirm  \
     ghostscript \
     sdl2 \
     supercollider \
+    sc3-plugins \
     # nodejs \
     # jdk-openjdk \
     # racket \
