@@ -20,6 +20,9 @@ RUN pacman -Syu --needed --noconfirm  \
     sdl2 \
     supercollider \
     sc3-plugins \
+    pipewire \
+    pipewire-jack \
+    wireplumber \
     # nodejs \
     # jdk-openjdk \
     # racket \
