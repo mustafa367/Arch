@@ -23,6 +23,7 @@ RUN pacman -Syu --needed --noconfirm  \
     pipewire \
     pipewire-jack \
     wireplumber \
+    pnpm \
     # nodejs \
     # jdk-openjdk \
     # racket \
