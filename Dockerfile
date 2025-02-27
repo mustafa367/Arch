@@ -32,7 +32,7 @@ RUN pacman -Syu --needed --noconfirm  \
     # guile2.2 \
     # htop \
     # code \
-    # texlive-meta \
+    texlive-meta \
     # go \
     && pacman -Scc --noconfirm \
     # && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org |  sh \
