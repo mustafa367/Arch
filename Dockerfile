@@ -12,8 +12,8 @@ RUN pacman -Syu --needed --noconfirm  \
     gcc \
     rustup \
     zig \
-    python \
-    python-pip \
+    # python \
+    # python-pip \
     clojure \
     djvulibre \
     ghostscript \
@@ -27,7 +27,7 @@ RUN pacman -Syu --needed --noconfirm  \
     gradle \
     # nodejs \
     # jdk-openjdk \
-    racket \
+    # racket \
     # ffmpeg \
     # guile2.2 \
     # htop \
