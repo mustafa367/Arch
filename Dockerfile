@@ -14,7 +14,8 @@ RUN pacman -Syu --needed --noconfirm  \
     zig \
     # python \
     # python-pip \
-    clojure \
+    dotnet-sdk \
+    # clojure \
     djvulibre \
     ghostscript \
     sdl2 \
