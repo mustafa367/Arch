@@ -36,11 +36,17 @@ RUN pacman -Syu --needed --noconfirm  \
     texlive-meta \
     # go \
     && pacman -Scc --noconfirm \
+    # Haskell Install
     && curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org |  sh \
     && /usr/bin/ghcup install ghc \
     && /usr/bin/ghcup install cabal \
     && /usr/bin/ghcup install hls \
+    # Scala Install
     # && curl -fL https://github.com/coursier/coursier/releases/latest/download/cs-x86_64-pc-linux.gz | gzip -d > cs && chmod +x cs && ./cs setup --yes \
+    # VS Code Server Install
     && curl -fsSL https://code-server.dev/install.sh | sh -s -- --method standalone --prefix=/usr/local \
+    # Bazel Install
     && curl -fsSL --output /usr/bin/bazel https://github.com/bazelbuild/bazelisk/releases/download/v1.20.0/bazelisk-linux-amd64 \
+    && chmod a+x /usr/bin/bazel
+    # Rust Default Toolchain Install
     && rustup default stable
