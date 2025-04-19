@@ -47,6 +47,6 @@ RUN pacman -Syu --needed --noconfirm  \
     && curl -fsSL https://code-server.dev/install.sh | sh -s -- --method standalone --prefix=/usr/local \
     # Bazel Install
     && curl -fsSL --output /usr/bin/bazel https://github.com/bazelbuild/bazelisk/releases/download/v1.20.0/bazelisk-linux-amd64 \
-    && chmod a+x /usr/bin/bazel
+    && chmod a+x /usr/bin/bazel \
     # Rust Default Toolchain Install
     && rustup default stable
