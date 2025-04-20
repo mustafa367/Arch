@@ -9,31 +9,34 @@ RUN pacman -Syu --needed --noconfirm  \
     neofetch \
     neovim \
     git-lfs \
-    gcc \
-    rustup \
-    zig \
-    # python \
-    # python-pip \
-    dotnet-sdk \
-    # clojure \
+    # htop \
+    # ffmpeg \
+    # Documents
     djvulibre \
     ghostscript \
-    sdl2 \
+    texlive-meta \
+    # Audio
     supercollider \
     sc3-plugins \
     pipewire \
     pipewire-jack \
     wireplumber \
+    # Graphics
+    sdl2 \
+    # Programming Languages
+    gcc \
+    rustup \
+    zig \
+    # nodejs \
     pnpm \
     gradle \
-    # nodejs \
+    # dotnet-sdk \
+    # python \
+    # python-pip \
+    # clojure \
     # jdk-openjdk \
     # racket \
-    # ffmpeg \
     # guile2.2 \
-    # htop \
-    # code \
-    texlive-meta \
     # go \
     && pacman -Scc --noconfirm \
     # Haskell Install
