@@ -30,11 +30,11 @@ RUN pacman -Syu --needed --noconfirm  \
     # nodejs \
     pnpm \
     gradle \
+    jdk-openjdk \
     # dotnet-sdk \
     # python \
     # python-pip \
     # clojure \
-    # jdk-openjdk \
     # racket \
     # guile2.2 \
     # go \
