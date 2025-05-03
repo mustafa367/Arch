@@ -28,8 +28,8 @@ RUN pacman -Syu --needed --noconfirm  \
     rustup \
     zig \
     pypy3 \
-    # nodejs \
-    # pnpm \
+    nodejs \
+    pnpm \
     # gradle \
     jdk-openjdk \
     # dotnet-sdk \
