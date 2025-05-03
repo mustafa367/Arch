@@ -27,6 +27,7 @@ RUN pacman -Syu --needed --noconfirm  \
     gcc \
     rustup \
     zig \
+    pypy3 \
     # nodejs \
     # pnpm \
     # gradle \
