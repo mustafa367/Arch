@@ -6,7 +6,6 @@ ENV BOOTSTRAP_HASKELL_NONINTERACTIVE=1 GHCUP_USE_XDG_DIRS=1
 
 RUN pacman -Syu --needed --noconfirm  \
     archlinux-keyring \
-    neofetch \
     neovim \
     git-lfs \
     # htop \
