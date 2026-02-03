@@ -32,6 +32,7 @@ RUN pacman -Syu --needed --noconfirm  \
     cmake \
     # gradle \
     jdk-openjdk \
+    maven \
     # dotnet-sdk \
     # python \
     # python-pip \
