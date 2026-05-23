@@ -11,28 +11,28 @@ RUN pacman -Syu --needed --noconfirm  \
     # htop \
     # ffmpeg \
     # Documents
-    djvulibre \
-    ghostscript \
+    # djvulibre \
+    # ghostscript \
     texlive-meta \
     # Audio
-    supercollider \
-    sc3-plugins \
-    pipewire \
-    pipewire-jack \
-    wireplumber \
+    # supercollider \
+    # sc3-plugins \
+    # pipewire \
+    # pipewire-jack \
+    # wireplumber \
     # Graphics
     sdl2 \
     # Programming Languages
     gcc \
     rustup \
-    zig \
-    pypy3 \
+    # zig \
+    # pypy3 \
     nodejs \
     pnpm \
     cmake \
     # gradle \
-    jdk-openjdk \
-    maven \
+    # jdk-openjdk \
+    # maven \
     cosign \
     # dotnet-sdk \
     # python \
