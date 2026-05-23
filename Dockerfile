@@ -33,6 +33,7 @@ RUN pacman -Syu --needed --noconfirm  \
     # gradle \
     jdk-openjdk \
     maven \
+    cosign \
     # dotnet-sdk \
     # python \
     # python-pip \
